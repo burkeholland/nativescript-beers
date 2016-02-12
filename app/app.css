@@ -1,0 +1,27 @@
+﻿ActionBar {
+    background-color: #1f6aec;
+    color: white;
+}
+
+.h2 {
+    font-size: 16;
+}
+
+.p {
+    color: #666;
+    font-size: 14;
+}
+
+.item {
+    padding: 8 16 8 16;
+    height: 100;
+}
+
+.item-detail {
+    margin-left: -10;
+    margin-right: 20;
+}
+
+.item-thumbnail {
+    margin-left: -20;
+}

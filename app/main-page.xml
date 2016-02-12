@@ -1,0 +1,18 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <Page.actionBar>
+        <ActionBar title="NativeScript Beers" />
+    </Page.actionBar>
+    <StackLayout>
+        <ListView items="{{ beerList }}" itemLoading="itemLoading">
+            <ListView.itemTemplate> 
+                <StackLayout orientation="horizontal" class="item">
+                    <Image width="100" height="100" src="{{ image }}" class="item-thumbnail"/>
+                    <StackLayout orientation="vertical" class="item-detail">
+                        <Label id="name" text="{{name}}" class="h2" />
+                        <Label id="description" text="{{ description }}" textWrap="true" class="p" />
+                    </StackLayout>
+                </StackLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </StackLayout>
+</Page>
