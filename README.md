@@ -2,9 +2,9 @@ It's a sample application based on the [NativeScript Beers tutorial](http://www.
 
 clone it, change into the directory. Then....
 
-`npm install`
-`tns platform add ios`
-'tns install typescript`
+* `npm install`
+* `tns platform add ios`
+* `tns install typescript`
 
 And then run it!
 
