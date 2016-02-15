@@ -27,8 +27,6 @@ class BeersViewModel extends Observable {
              }
            });
         });
-        
-        http.getJSON('')
     }
 }
 
