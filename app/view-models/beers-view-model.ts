@@ -17,8 +17,6 @@ class BeersViewModel extends Observable {
     getBeers() {
         http.getJSON('http://www.beer-tutorials.org/beers/beers.json').then((result: Array<Object>) => {
            result.forEach((beer: any) => {
-             // get the image and then 
-             console.log(`Name: ${beer.name}`);  
              try {
                 this.beerList.push(new Beer(beer.name, beer.description, beer.alcohol, beer.img)); 
              }
