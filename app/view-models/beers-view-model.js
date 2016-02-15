@@ -22,7 +22,6 @@ var BeersViewModel = (function (_super) {
                 }
             });
         });
-        http.getJSON('');
     };
     return BeersViewModel;
 })(observable_1.Observable);
