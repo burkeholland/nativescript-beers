@@ -12,8 +12,6 @@ var BeersViewModel = (function (_super) {
         var _this = this;
         http.getJSON('http://www.beer-tutorials.org/beers/beers.json').then(function (result) {
             result.forEach(function (beer) {
-                // get the image and then 
-                console.log("Name: " + beer.name);
                 try {
                     _this.beerList.push(new beer_1.default(beer.name, beer.description, beer.alcohol, beer.img));
                 }
